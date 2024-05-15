@@ -13,7 +13,7 @@ import { DetailsComponent } from "./details/details.component";
 import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, DetailsComponent],
   imports: [CommonModule, RoutingModule, SharedModule, HttpClientModule],
 })
 export class PagesModule {}
